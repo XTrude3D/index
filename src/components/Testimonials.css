@@ -40,7 +40,7 @@
 }
 
 .testimonials .card span {
-    color: var(--primary-color);
+    color: rgb(0,79,179);
     font-size: 1rem;
     font-weight: 700;
 }

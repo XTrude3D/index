@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <div className='header'>
             <nav className='navbar'>
-                <a href='/' className='logo'>
+                <a href='/xtrude' className='logo'>
                     <img src={logo} alt='logo' />
                 </a>
                 <div className='hamburger' onClick={handleClick}>
@@ -24,9 +24,9 @@ const Navbar = () => {
                 </div>
                 <div className={click ? "nav-menu active" : "nav-menu"}>
                     <Link className='nav-item' to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Kezdőlap</Link>
-                    <Link className='nav-item' to="about" spy={true} smooth={true} offset={20} duration={500} onClick={closeMenu}>Rólunk</Link>
-                    <Link className='nav-item' to="testimonials" spy={true} smooth={true} offset={-30} duration={500} onClick={closeMenu}>Szolgáltatások</Link>
-                    <Link className='nav-item' to="demo" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Áraink</Link>
+                    <Link className='nav-item' to="about" spy={true} smooth={true} offset={30} duration={500} onClick={closeMenu}>Rólunk</Link>
+                    <Link className='nav-item' to="testimonials" spy={true} smooth={true} offset={-30} duration={500} onClick={closeMenu}>Árak</Link>
+                    <Link className='nav-item' to="demo" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Szolgáltatások</Link>
                     <Link className='nav-item' to="demo" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Kapcsolat</Link>
                 </div>
             </nav>
