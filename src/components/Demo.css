@@ -33,13 +33,12 @@
     margin-bottom: 1rem;
 }
 
-
 .demo .col-2 {
     margin: auto;
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     .demo .container {
         max-width: 100%;
         grid-template-columns: 1fr;

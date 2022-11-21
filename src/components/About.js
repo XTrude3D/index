@@ -10,9 +10,8 @@ const About = () => {
                 <div className='col-2'>
                     <h2>Rólunk</h2>
                     <span className='line'></span>
-                    <p>&#8592;  Szépek vagyunk</p>
+                    <p>Lorem ipsum</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam massa non lectus aliquam accumsan. Suspendisse euismod nisl ut lacus.</p>
-                    <p>(◐ ε ◑) ᴳᵘᵗᵉᶰ ᴹᵒʳᵍᵉᶰ (◐ ε ◑) ☢</p>
                     {/* <button className='button'>Explore More</button> */}
                 </div>
             </div>

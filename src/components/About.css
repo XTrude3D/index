@@ -1,7 +1,7 @@
 .about {
     background-color: #f8f8f8;
     margin: auto;
-    padding: 4rem 1rem 0 1rem;
+    padding: 4rem 1rem 1rem 1rem;
     width: 100%;
 }
 
@@ -44,7 +44,7 @@
     margin-top: 1rem;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width: 900px) {
     .about .container {
         grid-template-columns: 1fr;
     }

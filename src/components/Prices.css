@@ -47,18 +47,17 @@
     font-weight: 700;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     .testimonials .container {
         width: 100%;
     }
 
     .testimonials .container .content {
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
 
     .testimonials .card {
         max-width: 100%;
-        margin: 1rem;
     }
 }
 

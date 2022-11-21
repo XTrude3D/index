@@ -43,7 +43,7 @@
     border: 1px solid var(--secondary-dark);
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:900px) {
     .home .content {
         padding: 1rem 8%;
     }
