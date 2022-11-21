@@ -1,7 +1,7 @@
 .about {
     background-color: #f8f8f8;
     margin: auto;
-    padding: 8rem 1rem 0 1rem;
+    padding: 4rem 1rem 0 1rem;
     width: 100%;
 }
 
@@ -10,6 +10,10 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.about .container img {
+    width: 100%;
 }
 
 .about h2 {
@@ -25,20 +29,22 @@
 }
 
 .about .col-2 p:first-of-type {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .about .col-2 p:nth-child(4) {
     font-size: 1.8rem;
     font-style: italic;
     font-weight: 600;
+    margin-top: 1rem;
+    text-align: justify;
 }
 
 .about button {
     margin-top: 1rem;
 }
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:750px) {
     .about .container {
         grid-template-columns: 1fr;
     }
@@ -50,6 +56,10 @@
     .about .container img {
         padding: 0rem;
         width: 90vw;
+    }
+
+    .about h2 {
+        margin-top: 1rem;
     }
 
     .about .container .col-2 {

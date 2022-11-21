@@ -39,7 +39,7 @@
 }
 
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 750px) {
     .demo .container {
         max-width: 100%;
         grid-template-columns: 1fr;
