@@ -45,14 +45,14 @@
 
 @media screen and (max-width:900px) {
     .home .content {
-        padding: 1rem 8%;
+        padding: 1rem 7%;
     }
     .home .content h1 {
-        font-size: 2.6rem;
+        font-size: 2.5rem;
     }
 
     .home .content h2 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 }
 
