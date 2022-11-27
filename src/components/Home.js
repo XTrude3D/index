@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import background from './images/tesztvideo.mp4'
+import background from './images/tesztvideo2.mp4'
 
 const Home = () => {
     return (
