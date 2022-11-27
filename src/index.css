@@ -1,6 +1,7 @@
 :root {
   --primary-color: #004fb6;
   --primary-dark: #003881;
+  --primary-darker: #001f47;
   --secondary-color: #ffea00;
   --secondary-dark:#e3d002;
   --overlay: rgba(0,0,0,.7);
@@ -36,21 +37,31 @@ a {
   text-decoration: none;
 }
 
-.button {
-  padding: 17px 28px;
-  font-size: 1.2rem;
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-  background-color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  border-radius: 4px;
+.button{                    /*3D-s gomb*/
+  padding: 15px;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  border: none;
+  border-radius: 10px;
   cursor: pointer;
+  background: var(--primary-color);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  border-top: 3px solid rgba(255,255,255,0.5);
+  color: #fff;
+  transition: background 0.3s;
+  outline: none;
 }
 
 .button:hover {
   background: var(--primary-dark);
-  border: 1px solid var(--primary-dark);
+}
+
+.button:active {
+  background: var(--primary-dark);
+  border-top: 4px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid rgba(255,255,255,0.5);
+  transition: none;
 }
 
 .line {

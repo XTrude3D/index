@@ -1,15 +1,14 @@
 import React from 'react'
 import './Home.css'
+import background from './images/tesztvideo.mp4'
 
 const Home = () => {
     return (
         <div className='home' id='home'>
+            <video src={background} autoPlay muted loop/>
             <div className='content'>
-                {/* <p>Call us</p>
-                <p>1-800-123-4567</p> */}
                 <h1><span>X</span>TRUDE</h1>
                 <h2><span>3D</span> NYOMTATÁS ÉS TERVEZÉS</h2>
-                {/* <button href='/' className='button'>Free Consultation</button> */}
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 import React from 'react'
-import printer from './images/printer.png'
+import printer from './images/printer.jpg'
 import './About.css'
 
 const About = () => {

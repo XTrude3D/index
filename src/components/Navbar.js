@@ -12,8 +12,19 @@ const Navbar = () => {
 
     const closeMenu = () => setClick(false)
 
+    const [color, setColor] = useState(false)
+    const changeColor = () => {
+        if (window.scrollY >= 90) {
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeColor)
+
     return (
-        <div className='header'>
+        <div className={color ? 'header header-bg' : 'header'}>
             <nav className='navbar'>
                 <a href='/xtrude' className='logo'>
                     <img src={logo} alt='logo' />
@@ -23,11 +34,12 @@ const Navbar = () => {
                         : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
                 </div>
                 <div className={click ? "nav-menu active" : "nav-menu"}>
-                    <Link className='nav-item' to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Kezdőlap</Link>
-                    <Link className='nav-item' to="about" spy={true} smooth={true} offset={-20} duration={500} onClick={closeMenu}>Rólunk</Link>
-                    <Link className='nav-item' to="testimonials" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu}>Áraink</Link>
-                    <Link className='nav-item' to="demo" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Szolgáltatások</Link>
-                    <Link className='nav-item' to="demo" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Kapcsolat</Link>
+                    <Link className='nav-item' activeClass='current' to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Kezdőlap</Link>
+                    <Link className='nav-item' activeClass='current' to="about" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Rólunk</Link>
+                    <Link className='nav-item' activeClass='current' to="demo" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Szolgáltatások</Link>
+                    <Link className='nav-item' activeClass='current' to="products" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Termékek</Link>
+                    <Link className='nav-item' activeClass='current' to="knowledge" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Tudástár</Link>
+                    <Link className='nav-item' activeClass='current' to="contact" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Kapcsolat</Link>
                 </div>
             </nav>
         </div>
