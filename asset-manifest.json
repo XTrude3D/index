@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/xtrude/static/css/main.dcbd7e66.chunk.css",
-    "main.js": "/xtrude/static/js/main.9f1c943f.chunk.js",
-    "main.js.map": "/xtrude/static/js/main.9f1c943f.chunk.js.map",
+    "main.css": "/xtrude/static/css/main.54569c1a.chunk.css",
+    "main.js": "/xtrude/static/js/main.40ce5735.chunk.js",
+    "main.js.map": "/xtrude/static/js/main.40ce5735.chunk.js.map",
     "runtime-main.js": "/xtrude/static/js/runtime-main.801f4028.js",
     "runtime-main.js.map": "/xtrude/static/js/runtime-main.801f4028.js.map",
     "static/js/2.71a6629a.chunk.js": "/xtrude/static/js/2.71a6629a.chunk.js",
     "static/js/2.71a6629a.chunk.js.map": "/xtrude/static/js/2.71a6629a.chunk.js.map",
     "index.html": "/xtrude/index.html",
-    "static/css/main.dcbd7e66.chunk.css.map": "/xtrude/static/css/main.dcbd7e66.chunk.css.map",
+    "static/css/main.54569c1a.chunk.css.map": "/xtrude/static/css/main.54569c1a.chunk.css.map",
     "static/js/2.71a6629a.chunk.js.LICENSE.txt": "/xtrude/static/js/2.71a6629a.chunk.js.LICENSE.txt",
     "static/media/controller.59538334.jpg": "/xtrude/static/media/controller.59538334.jpg",
     "static/media/logo2.6c908e92.png": "/xtrude/static/media/logo2.6c908e92.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.801f4028.js",
     "static/js/2.71a6629a.chunk.js",
-    "static/css/main.dcbd7e66.chunk.css",
-    "static/js/main.9f1c943f.chunk.js"
+    "static/css/main.54569c1a.chunk.css",
+    "static/js/main.40ce5735.chunk.js"
   ]
 }
