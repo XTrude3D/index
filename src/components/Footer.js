@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='container'>
                 <div className='bottom'>
                     <span className='line'></span>
-                    <p>2022 XTrude Kkt.  —  Minden jog fenntartva</p>
+                    <p>2022 XTrude 3D Technológia Kkt.  —  Minden jog fenntartva</p>
                 </div>
             </div>
         </div>
