@@ -12,7 +12,7 @@ const Products = () => {
             <div className='container'>
                 <h1>Mintatermékek</h1>
                 <span className='line'></span>
-                <p>Csupán a te egyediséged és igényed hiányzik róluk:</p>
+                {/* <p>Csupán a te egyediséged és igényed hiányzik róluk:</p> */}
                 <div className='content'>
                     <div className='card'>
                         <img src={product1} />

@@ -82,17 +82,7 @@
     top: 0;
     height: 100%;
     transition: 0.3s all;
-  };
-
-  .services .card .details:hover {
-    background-color: transparent;
   }
-
-.services .card span {
-    color: var(--primary-color);
-    font-size: 1rem;
-    font-weight: 700;
-}
 
 @media screen and (max-width: 900px) {
     .services .container {
@@ -101,6 +91,7 @@
 
     .services .container .content {
         flex-direction: column;
+        -webkit-flex-direction: column;
     }
 
     .services .card {
