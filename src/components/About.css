@@ -28,16 +28,11 @@
     padding: 3rem;
 }
 
-.about .col-2 p:first-of-type {
-    margin: 1rem 0;
-}
-
-.about .col-2 p:nth-child(4) {
-    font-size: 1.8rem;
-    font-style: italic;
+.about .col-2 p {
+    font-size: 1.5rem;
     font-weight: 600;
-    margin-top: 1rem;
-    text-align: justify;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 .about button {

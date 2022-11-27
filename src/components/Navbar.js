@@ -36,10 +36,10 @@ const Navbar = () => {
                 <div className={click ? "nav-menu active" : "nav-menu"}>
                     <Link className='nav-item' activeClass='current' to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Kezdőlap</Link>
                     <Link className='nav-item' activeClass='current' to="about" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Rólunk</Link>
-                    <Link className='nav-item' activeClass='current' to="demo" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Szolgáltatások</Link>
-                    <Link className='nav-item' activeClass='current' to="products" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Termékek</Link>
-                    <Link className='nav-item' activeClass='current' to="knowledge" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Tudástár</Link>
+                    <Link className='nav-item' activeClass='current' to="services" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Szolgáltatások</Link>
+                    <Link className='nav-item' activeClass='current' to="products" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Mintatermékek</Link>
                     <Link className='nav-item' activeClass='current' to="contact" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Kapcsolat</Link>
+                    <Link className='nav-item' activeClass='current' to="academy" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Akadémia</Link>
                 </div>
             </nav>
         </div>
