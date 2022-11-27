@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/xtrude/static/css/main.de850c6d.chunk.css",
-    "main.js": "/xtrude/static/js/main.5a247a60.chunk.js",
-    "main.js.map": "/xtrude/static/js/main.5a247a60.chunk.js.map",
+    "main.js": "/xtrude/static/js/main.3f847c31.chunk.js",
+    "main.js.map": "/xtrude/static/js/main.3f847c31.chunk.js.map",
     "runtime-main.js": "/xtrude/static/js/runtime-main.801f4028.js",
     "runtime-main.js.map": "/xtrude/static/js/runtime-main.801f4028.js.map",
     "static/js/2.71a6629a.chunk.js": "/xtrude/static/js/2.71a6629a.chunk.js",
@@ -18,12 +18,12 @@
     "static/media/service1.59eb4b38.jpg": "/xtrude/static/media/service1.59eb4b38.jpg",
     "static/media/service2.b4524034.jpg": "/xtrude/static/media/service2.b4524034.jpg",
     "static/media/service3.555175ec.png": "/xtrude/static/media/service3.555175ec.png",
-    "static/media/tesztvideo.0072b796.mp4": "/xtrude/static/media/tesztvideo.0072b796.mp4"
+    "static/media/tesztvideo2.feb78aa5.mp4": "/xtrude/static/media/tesztvideo2.feb78aa5.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.801f4028.js",
     "static/js/2.71a6629a.chunk.js",
     "static/css/main.de850c6d.chunk.css",
-    "static/js/main.5a247a60.chunk.js"
+    "static/js/main.3f847c31.chunk.js"
   ]
 }
