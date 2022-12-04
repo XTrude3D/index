@@ -12,8 +12,8 @@ const Products = () => {
             <div className='container'>
                 <h1>Mintatermékek</h1>
                 <span className='line'></span>
-                {/* <p>Csupán a te egyediséged és igényed hiányzik róluk:</p> */}
-                <div className='content'>
+                <p className='desc'>Csupán a te egyediséged és igényed hiányzik róluk:</p>
+                <div className='first-content'>
                     <div className='card'>
                         <img src={product1} />
                         <h2>Termék1</h2>
@@ -27,9 +27,23 @@ const Products = () => {
                     <div className='card'>
                         <img src={product3} />
                         <h2>Termék3</h2>
-                        <p className='priceTag'>4000 Ft</p>
+                        <p className='priceTag'>3000 Ft</p>
                     </div>
                 </div>
+                <div className='second-content'>
+                    <div className='card'>
+                        <img src={product4} />
+                        <h2>Termék4</h2>
+                        <p className='priceTag'>4000 Ft</p>
+                    </div> 
+                    <div className='card'>
+                        <img src={service2} />
+                        <h2>Termék5</h2>
+                        <p className='priceTag'>5000 Ft</p>
+                    </div>
+                </div>
+                <p className='desc'>Kiváncsi vagy további termékeinkre?</p>
+                <button className='button'><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target={'_blank'}>Kattints ide</a></button>
             </div>
         </div>
     )

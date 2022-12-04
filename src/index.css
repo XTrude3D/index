@@ -38,9 +38,9 @@ a {
 }
 
 .button{                    /*3D-s gomb*/
-  padding: 15px;
-  font-size: 1.3rem;
-  letter-spacing: 0.1rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.025rem;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -49,7 +49,7 @@ a {
   border-bottom: 4px solid rgba(0, 0, 0, 0.5);
   border-top: 3px solid rgba(255,255,255,0.5);
   color: #fff;
-  transition: background 0.3s;
+  transition: all 0.3s;
   outline: none;
 }
 
@@ -58,7 +58,7 @@ a {
 }
 
 .button:active {
-  background: var(--primary-dark);
+  background: var(--primary-darker);
   border-top: 4px solid rgba(0, 0, 0, 0.5);
   border-bottom: 3px solid rgba(255,255,255,0.5);
   transition: none;
@@ -66,8 +66,12 @@ a {
 
 .line {
   display: block;
-  width: 40px;
-  height: 3px;
+  width: 80px;
+  height: 4px;
   margin: 5px auto;
   background-color: rgb(0, 79, 179);
+}
+
+a {
+  color: white;
 }

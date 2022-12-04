@@ -1,23 +1,23 @@
 .about {
     background-color: #f8f8f8;
-    margin: auto;
+    margin: 0 auto;
     padding: 6rem 0 0 0;
     width: 100%;
 }
 
 .about .container {
     width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .about .container img {
     width: 100%;
-    margin: auto;
+    margin: 1rem auto;
 }
 
-.about h2 {
+.about h1 {
     font-size: 3rem;
 }
 
@@ -26,7 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 0 3rem;
 }
 
 .about .col-2 p {
