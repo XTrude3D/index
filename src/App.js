@@ -1,23 +1,15 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Home from './components/Home'
-import About from './components/About'
-import Products from './components/Products'
-import Services from './components/Services'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Site from './components/Site'
+import Academy from './components/Academy'
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Services />
-      <Products />
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/xtrude" element={ <Site /> } />
+        <Route path="/xtrude/akademia" element={ <Academy /> } />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,13 +1,15 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import './Contact.css'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
     const form = useRef();
+    const [active, setActive] = useState(true);
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setActive(false);
 
         emailjs.sendForm('service_84bsd2i', 'template_9uxm7pb', form.current, '4EgQR1w60P5j1gi5b')
             .then((result) => {
@@ -15,7 +17,9 @@ const Contact = () => {
                 alert("Köszönjük megkeresését, üzenetét elküldtük!");
             }, (error) => {
                 console.log(error.text);
+                alert("A küldés során hiba történt, kérjük próbálja újra később, vagy keressen fel bennünket egy másik elérhetőségen!");
             });
+        setActive(true);
     };
 
     return (
@@ -36,21 +40,19 @@ const Contact = () => {
                         <input type="text" name="email" placeholder="E-mail" required />
                         <label>Termék</label>
                         <select name="product" required>
-                            <option>Termék1</option>
-                            <option>Termék2</option>
-                            <option>Termék3</option>
-                            <option>Termék4</option>
-                            <option>Termék5</option>
+                            <option></option>
+                            <option>Egyedi lámpa</option>
+                            <option>Hatszöglámpa</option>
+                            <option>Egyedi termék</option>
                             <option>Információt kérek</option>
                         </select>
                         <label>Üzenet</label>
                         <textarea name="message" placeholder="Üzenet" required></textarea>
-                        <input className="button" type="submit" value="Küldés" />
+                        <input disabled={!active} className="button" type="submit" value="Küldés"/> 
                     </form>
                 </div>
             </div>
         </div>
-
     )
 }
 

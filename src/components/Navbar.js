@@ -39,7 +39,7 @@ const Navbar = () => {
                     <Link className='nav-item' activeClass='current' to="services" spy={true} smooth={true} offset={5} duration={500} onClick={closeMenu}>Szolgáltatások</Link>
                     <Link className='nav-item' activeClass='current' to="products" spy={true} smooth={true} offset={5} duration={500} onClick={closeMenu}>Mintatermékek</Link>
                     <Link className='nav-item' activeClass='current' to="contact" spy={true} smooth={true} offset={5} duration={500} onClick={closeMenu}>Kapcsolat</Link>
-                    <Link className='nav-item' activeClass='current' to="academy" spy={true} smooth={true} offset={5} duration={500} onClick={closeMenu}>Akadémia</Link>
+                    <a className='nav-item' onClick={closeMenu} href="/xtrude/akademia">Akadémia</a>
                 </div>
             </nav>
         </div>
