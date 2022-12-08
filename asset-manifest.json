@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/xtrude/static/css/main.531ae6e6.chunk.css",
-    "main.js": "/xtrude/static/js/main.e875d62b.chunk.js",
-    "main.js.map": "/xtrude/static/js/main.e875d62b.chunk.js.map",
+    "main.css": "/xtrude/static/css/main.1db98e24.chunk.css",
+    "main.js": "/xtrude/static/js/main.36d72eb1.chunk.js",
+    "main.js.map": "/xtrude/static/js/main.36d72eb1.chunk.js.map",
     "runtime-main.js": "/xtrude/static/js/runtime-main.801f4028.js",
     "runtime-main.js.map": "/xtrude/static/js/runtime-main.801f4028.js.map",
-    "static/js/2.c083aaf9.chunk.js": "/xtrude/static/js/2.c083aaf9.chunk.js",
-    "static/js/2.c083aaf9.chunk.js.map": "/xtrude/static/js/2.c083aaf9.chunk.js.map",
+    "static/js/2.ed444cfa.chunk.js": "/xtrude/static/js/2.ed444cfa.chunk.js",
+    "static/js/2.ed444cfa.chunk.js.map": "/xtrude/static/js/2.ed444cfa.chunk.js.map",
     "index.html": "/xtrude/index.html",
-    "static/css/main.531ae6e6.chunk.css.map": "/xtrude/static/css/main.531ae6e6.chunk.css.map",
-    "static/js/2.c083aaf9.chunk.js.LICENSE.txt": "/xtrude/static/js/2.c083aaf9.chunk.js.LICENSE.txt",
+    "static/css/main.1db98e24.chunk.css.map": "/xtrude/static/css/main.1db98e24.chunk.css.map",
+    "static/js/2.ed444cfa.chunk.js.LICENSE.txt": "/xtrude/static/js/2.ed444cfa.chunk.js.LICENSE.txt",
     "static/media/controller.59538334.jpg": "/xtrude/static/media/controller.59538334.jpg",
     "static/media/logo2.6c908e92.png": "/xtrude/static/media/logo2.6c908e92.png",
     "static/media/product2.ed68c1a0.jpg": "/xtrude/static/media/product2.ed68c1a0.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.801f4028.js",
-    "static/js/2.c083aaf9.chunk.js",
-    "static/css/main.531ae6e6.chunk.css",
-    "static/js/main.e875d62b.chunk.js"
+    "static/js/2.ed444cfa.chunk.js",
+    "static/css/main.1db98e24.chunk.css",
+    "static/js/main.36d72eb1.chunk.js"
   ]
 }
