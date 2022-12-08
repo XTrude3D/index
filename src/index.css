@@ -3,8 +3,8 @@
   --primary-dark: #003881;
   --primary-darker: #001f47;
   --secondary-color: #ffea00;
-  --secondary-dark:#e3d002;
-  --overlay: rgba(0,0,0,.7);
+  --secondary-dark: #e3d002;
+  --overlay: rgba(0, 0, 0, .7);
 }
 
 * {
@@ -37,17 +37,19 @@ a {
   text-decoration: none;
 }
 
-.button{                    /*3D-s gomb*/
-  padding: 1rem;
+.button,
+.button:focus {
+  width: auto;
+  padding: 0.7rem 1.5rem;
   font-size: 1.4rem;
   letter-spacing: 0.025rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 1rem;
   cursor: pointer;
   background: var(--primary-color);
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
   border-bottom: 4px solid rgba(0, 0, 0, 0.5);
-  border-top: 3px solid rgba(255,255,255,0.5);
+  border-top: 3px solid rgba(255, 255, 255, 0.5);
   color: #fff;
   transition: all 0.3s;
   outline: none;
@@ -60,7 +62,7 @@ a {
 .button:active {
   background: var(--primary-darker);
   border-top: 4px solid rgba(0, 0, 0, 0.5);
-  border-bottom: 3px solid rgba(255,255,255,0.5);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
   transition: none;
 }
 
