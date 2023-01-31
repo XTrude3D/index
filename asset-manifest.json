@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/xtrude/static/css/main.b08d02b4.chunk.css",
-    "main.js": "/xtrude/static/js/main.7f988395.chunk.js",
-    "main.js.map": "/xtrude/static/js/main.7f988395.chunk.js.map",
+    "main.js": "/xtrude/static/js/main.afed0269.chunk.js",
+    "main.js.map": "/xtrude/static/js/main.afed0269.chunk.js.map",
     "runtime-main.js": "/xtrude/static/js/runtime-main.801f4028.js",
     "runtime-main.js.map": "/xtrude/static/js/runtime-main.801f4028.js.map",
     "static/js/2.cfcbf58d.chunk.js": "/xtrude/static/js/2.cfcbf58d.chunk.js",
@@ -33,7 +33,7 @@
     "static/media/lito6.e686b932.jpg": "/xtrude/static/media/lito6.e686b932.jpg",
     "static/media/lito7.6b90fb81.jpg": "/xtrude/static/media/lito7.6b90fb81.jpg",
     "static/media/lito8.34012e3f.jpeg": "/xtrude/static/media/lito8.34012e3f.jpeg",
-    "static/media/logo2.6c908e92.png": "/xtrude/static/media/logo2.6c908e92.png",
+    "static/media/logo.dc85e5c5.png": "/xtrude/static/media/logo.dc85e5c5.png",
     "static/media/service1.d6729475.jpg": "/xtrude/static/media/service1.d6729475.jpg",
     "static/media/service2.16484247.jpg": "/xtrude/static/media/service2.16484247.jpg",
     "static/media/service3.7cb39bd5.jpg": "/xtrude/static/media/service3.7cb39bd5.jpg",
@@ -47,6 +47,6 @@
     "static/js/runtime-main.801f4028.js",
     "static/js/2.cfcbf58d.chunk.js",
     "static/css/main.b08d02b4.chunk.css",
-    "static/js/main.7f988395.chunk.js"
+    "static/js/main.afed0269.chunk.js"
   ]
 }
