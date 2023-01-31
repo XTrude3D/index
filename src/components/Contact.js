@@ -48,12 +48,16 @@ const Contact = () => {
                         <input type="text" name="name" placeholder="Név" required />
                         <label>E-mail</label>
                         <input type="text" name="email" placeholder="E-mail" required />
-                        <label>Termék</label>
+                        <label>Termék vagy szolgáltatás</label>
                         <select name="product" required>
                             <option> — </option>
-                            <option>Egyedi lámpa</option>
-                            <option>Hatszöglámpa</option>
-                            <option>Egyedi termék</option>
+                            <option>3D nyomtatott fénykép</option>
+                            <option>Egyedi tárgy</option>
+                            <option>Alkatrész</option>
+                            <option>Lézergravírozás</option>
+                            <option>CAD tervezés</option>
+                            <option>3D szkennelés</option>
+                            <option>3D nyomtató kalibrálás</option>
                             <option>Információt kérek</option>
                         </select>
                         <label>Üzenet</label>
