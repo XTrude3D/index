@@ -47,15 +47,16 @@ const Services = () => {
                     <div className='card'>
                         <img src={service5} alt="cad tervezés" />
                         <div className="details">
-                            <h2>CAD TERVEZÉS ÉS MŰSZAKI RAJZKÉSZÍTÉS</h2>
+                            <h2>CAD TERVEZÉS ÉS<br></br>MŰSZAKI RAJZKÉSZÍTÉS</h2>
                             <p>Rajz digitalizáció, műszaki rajz készítés, parametrikus és nem-parametrikus modellezés, "reverse engineering".</p>
                         </div>
                     </div>
                     <div className='card'>
                         <img src={service6} alt="3d nyomtató beállítás javítás" />
                         <div className="details">
-                            <h2>3D NYOMTATÓ BEÁLLÍTÁS ÉS JAVÍTÁS</h2>
-                            <p>Pontos és precíz nyomtatás érdekében történő beállítás és optimalizálás, alkatrészek cseréje.</p>
+                            <h2>3D NYOMTATÓ<br></br>
+                            BEÁLLÍTÁS ÉS JAVÍTÁS</h2>
+                            <p>A pontos és precíz nyomtatás érdekében történő beállítás és optimalizálás, alkatrészek cseréje.</p>
                         </div>
                     </div>
                 </div>

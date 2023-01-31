@@ -14,12 +14,16 @@
 .products h1 {
     font-size: 3rem;
     text-align: center;
+    padding-top: 3rem;
+}
+
+.products h1:nth-child(1) {
     padding-top: 6rem;
 }
 
 .products .desc {
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0 0.5rem 0;
     font-weight: 600;
     font-size: 1.3rem;
 }
@@ -44,7 +48,7 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding: 1rem 1rem;
+    padding: 0.8rem 0;
     width: 1200px;
 }
 
@@ -83,6 +87,14 @@
     font-weight: 600;
     padding: 1.3rem 0;
     width: 35%;
+  }
+
+  .products .more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
   }
 
 @media screen and (max-width: 900px) {

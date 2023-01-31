@@ -1,25 +1,35 @@
 import React, { useRef, useState } from 'react'
 import './Contact.css'
 import emailjs from '@emailjs/browser';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
 
     const form = useRef();
-    const [active, setActive] = useState(true);
+    const [disabled, setDisabled] = useState(false);
+    let send = true;
 
     const sendEmail = (e) => {
-        e.preventDefault();
-        setActive(false);
+        if (send) {
+            send = false;
+            e.preventDefault();
+            setDisabled(true);
 
-        emailjs.sendForm('service_84bsd2i', 'template_9uxm7pb', form.current, '4EgQR1w60P5j1gi5b')
-            .then((result) => {
-                console.log(result.text);
-                alert("Köszönjük megkeresését, üzenetét elküldtük!");
-            }, (error) => {
-                console.log(error.text);
-                alert("A küldés során hiba történt, kérjük próbálja újra később, vagy keressen fel bennünket egy másik elérhetőségen!");
-            });
-        setActive(true);
+            emailjs.sendForm('service_84bsd2i', 'template_9uxm7pb', form.current, '4EgQR1w60P5j1gi5b')
+                .then((result) => {
+                    console.log(result.text);
+                    alert("Köszönjük megkeresését, üzenetét elküldtük!");
+                    setDisabled(false);
+                    send = true;
+                }, (error) => {
+                    console.log(error.text);
+                    alert("A küldés során hiba történt, kérjük próbálja újra később, vagy keressen fel bennünket egy másik elérhetőségen!");
+                    setDisabled(false);
+                    send = true;
+                });
+        }
     };
 
     return (
@@ -40,7 +50,7 @@ const Contact = () => {
                         <input type="text" name="email" placeholder="E-mail" required />
                         <label>Termék</label>
                         <select name="product" required>
-                            <option></option>
+                            <option> — </option>
                             <option>Egyedi lámpa</option>
                             <option>Hatszöglámpa</option>
                             <option>Egyedi termék</option>
@@ -48,8 +58,20 @@ const Contact = () => {
                         </select>
                         <label>Üzenet</label>
                         <textarea name="message" placeholder="Üzenet" required></textarea>
-                        <input disabled={!active} className="button" type="submit" value="Küldés"/> 
+                        <input disabled={disabled} className="button" type="submit" value="Küldés"/> 
                     </form>
+
+                    <p>További elérhetőségeink:</p>
+                    <div className='info'>
+                        <div>
+                            <FontAwesomeIcon icon={faEnvelope} />
+                            <span> info@xtrude.hu</span>
+                        </div>
+                        <div>
+                            <FontAwesomeIcon icon={faPhone} />
+                            <span> +36/1-234-5678</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
