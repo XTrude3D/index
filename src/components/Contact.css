@@ -2,7 +2,7 @@
     color: #fff;
     width: 100%;
     position: relative;
-    background: url('./images/product4.jpg') no-repeat center/cover;
+    background: url('./images/contact.jpg') no-repeat center/cover;
 }
 
 .contact .background {
@@ -99,6 +99,7 @@ form input:disabled {
 .contact .info {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width:900px) {
