@@ -1,15 +1,15 @@
 import React from 'react'
 import './Home.css'
-import background from './images/tesztvideo_trim.mp4'
+import background from './images/ujvideo.mp4'
 
 const Home = () => {
     return (
         <div className='home' id='home'>
-            <video src={background} autoPlay muted loop playsInline/>
-            <div className='content'>
+            <video src={background} autoPlay muted playsInline/>
+            {/* <div className='content'>
                 <h1><span>X</span>TRUDE</h1>
                 <h2><span>3D</span> NYOMTATÁS ÉS TERVEZÉS</h2>
-            </div>
+            </div> */}
         </div>
     )
 }

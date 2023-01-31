@@ -16,8 +16,8 @@
     padding-top: 1rem;
 }
 
-.line {
-    margin-bottom: 1rem;
+h2, p, .line {
+    margin-bottom: 1.2rem;
 }
 
 

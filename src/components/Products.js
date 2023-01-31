@@ -1,45 +1,64 @@
 import React from 'react'
-import product1 from './images/controller.jpg'
-import product2 from './images/product2.jpg'
-import product3 from './images/product3.jpeg'
-import product4 from './images/product4.jpg'
-import service2 from './images/service2.jpg'
+import lito1 from './images/lito1.jpg'
+import lito2 from './images/lito2.jpg'
+import lito3 from './images/lito3.jpg'
+import lito4 from './images/lito4.jpg'
+import lito5 from './images/lito5.jpg'
+import lito6 from './images/lito6.jpg'
+import lito7 from './images/lito7.jpg'
+import lito8 from './images/lito8.jpeg'
+
 import './Products.css'
 
 const Products = () => {
     return (
         <div className='products' id='products'>
             <div className='container'>
-                <h1>Mintatermékek</h1>
+                <h1>Domborfényképek</h1>
                 <span className='line'></span>
-                <p className='desc'>Csupán a te egyediséged és igényed hiányzik róluk:</p>
-                <div className='first-content'>
+                <p className='desc'>és ha lekapcsolod a lámpát, a pasid nem látja, hogy még az exed van rajta:</p>
+                <div className='content'>
                     <div className='card'>
-                        <img src={product1} />
-                        <h2>Termék1</h2>
-                        <p className='priceTag'>1000 Ft</p>
+                        <img src={lito1} />
+                        {/* <h2>Termék1</h2>
+                        <p className='priceTag'>1000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={product2} />
-                        <h2>Termék2</h2>
-                        <p className='priceTag'>2000 Ft</p>
+                        <img src={lito2} />
+                        {/* <h2>Termék2</h2>
+                        <p className='priceTag'>2000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={product3} />
-                        <h2>Termék3</h2>
-                        <p className='priceTag'>3000 Ft</p>
+                        <img src={lito3} />
+                        {/* <h2>Termék3</h2>
+                        <p className='priceTag'>3000 Ft</p> */}
+                    </div>
+                    <div className='card'>
+                        <img src={lito4} />
+                        {/* <h2>Termék3</h2>
+                        <p className='priceTag'>3000 Ft</p> */}
                     </div>
                 </div>
-                <div className='second-content'>
+                <div className='content'>
                     <div className='card'>
-                        <img src={product4} />
-                        <h2>Termék4</h2>
-                        <p className='priceTag'>4000 Ft</p>
-                    </div> 
+                        <img src={lito5} />
+                        {/* <h2>Termék1</h2>
+                        <p className='priceTag'>1000 Ft</p> */}
+                    </div>
                     <div className='card'>
-                        <img src={service2} />
-                        <h2>Termék5</h2>
-                        <p className='priceTag'>5000 Ft</p>
+                        <img src={lito6} />
+                        {/* <h2>Termék2</h2>
+                        <p className='priceTag'>2000 Ft</p> */}
+                    </div>
+                    <div className='card'>
+                        <img src={lito7} />
+                        {/* <h2>Termék3</h2>
+                        <p className='priceTag'>3000 Ft</p> */}
+                    </div>
+                    <div className='card'>
+                        <img src={lito8} />
+                        {/* <h2>Termék3</h2>
+                        <p className='priceTag'>3000 Ft</p> */}
                     </div>
                 </div>
                 <p className='desc'>Kiváncsi vagy további termékeinkre?</p>
