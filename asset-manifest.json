@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/xtrude/static/css/main.b08d02b4.chunk.css",
+    "main.css": "/xtrude/static/css/main.363052dd.chunk.css",
     "main.js": "/xtrude/static/js/main.afed0269.chunk.js",
     "main.js.map": "/xtrude/static/js/main.afed0269.chunk.js.map",
     "runtime-main.js": "/xtrude/static/js/runtime-main.801f4028.js",
@@ -8,7 +8,7 @@
     "static/js/2.cfcbf58d.chunk.js": "/xtrude/static/js/2.cfcbf58d.chunk.js",
     "static/js/2.cfcbf58d.chunk.js.map": "/xtrude/static/js/2.cfcbf58d.chunk.js.map",
     "index.html": "/xtrude/index.html",
-    "static/css/main.b08d02b4.chunk.css.map": "/xtrude/static/css/main.b08d02b4.chunk.css.map",
+    "static/css/main.363052dd.chunk.css.map": "/xtrude/static/css/main.363052dd.chunk.css.map",
     "static/js/2.cfcbf58d.chunk.js.LICENSE.txt": "/xtrude/static/js/2.cfcbf58d.chunk.js.LICENSE.txt",
     "static/media/alk1.3aae9d1d.jpg": "/xtrude/static/media/alk1.3aae9d1d.jpg",
     "static/media/alk2.b2fa16cc.jpg": "/xtrude/static/media/alk2.b2fa16cc.jpg",
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.801f4028.js",
     "static/js/2.cfcbf58d.chunk.js",
-    "static/css/main.b08d02b4.chunk.css",
+    "static/css/main.363052dd.chunk.css",
     "static/js/main.afed0269.chunk.js"
   ]
 }
