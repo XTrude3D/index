@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/xtrude/static/css/main.38ef2ba6.chunk.css",
-    "main.js": "/xtrude/static/js/main.75031280.chunk.js",
-    "main.js.map": "/xtrude/static/js/main.75031280.chunk.js.map",
+    "main.js": "/xtrude/static/js/main.7d8c988d.chunk.js",
+    "main.js.map": "/xtrude/static/js/main.7d8c988d.chunk.js.map",
     "runtime-main.js": "/xtrude/static/js/runtime-main.801f4028.js",
     "runtime-main.js.map": "/xtrude/static/js/runtime-main.801f4028.js.map",
     "static/js/2.786816b3.chunk.js": "/xtrude/static/js/2.786816b3.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.801f4028.js",
     "static/js/2.786816b3.chunk.js",
     "static/css/main.38ef2ba6.chunk.css",
-    "static/js/main.75031280.chunk.js"
+    "static/js/main.7d8c988d.chunk.js"
   ]
 }
