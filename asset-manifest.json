@@ -1,29 +1,38 @@
 {
   "files": {
-    "main.css": "/xtrude/static/css/main.1db98e24.chunk.css",
-    "main.js": "/xtrude/static/js/main.36d72eb1.chunk.js",
-    "main.js.map": "/xtrude/static/js/main.36d72eb1.chunk.js.map",
+    "main.css": "/xtrude/static/css/main.38ef2ba6.chunk.css",
+    "main.js": "/xtrude/static/js/main.75031280.chunk.js",
+    "main.js.map": "/xtrude/static/js/main.75031280.chunk.js.map",
     "runtime-main.js": "/xtrude/static/js/runtime-main.801f4028.js",
     "runtime-main.js.map": "/xtrude/static/js/runtime-main.801f4028.js.map",
-    "static/js/2.ed444cfa.chunk.js": "/xtrude/static/js/2.ed444cfa.chunk.js",
-    "static/js/2.ed444cfa.chunk.js.map": "/xtrude/static/js/2.ed444cfa.chunk.js.map",
+    "static/js/2.786816b3.chunk.js": "/xtrude/static/js/2.786816b3.chunk.js",
+    "static/js/2.786816b3.chunk.js.map": "/xtrude/static/js/2.786816b3.chunk.js.map",
     "index.html": "/xtrude/index.html",
-    "static/css/main.1db98e24.chunk.css.map": "/xtrude/static/css/main.1db98e24.chunk.css.map",
-    "static/js/2.ed444cfa.chunk.js.LICENSE.txt": "/xtrude/static/js/2.ed444cfa.chunk.js.LICENSE.txt",
-    "static/media/controller.59538334.jpg": "/xtrude/static/media/controller.59538334.jpg",
+    "static/css/main.38ef2ba6.chunk.css.map": "/xtrude/static/css/main.38ef2ba6.chunk.css.map",
+    "static/js/2.786816b3.chunk.js.LICENSE.txt": "/xtrude/static/js/2.786816b3.chunk.js.LICENSE.txt",
+    "static/media/lito1.5ba5a506.jpg": "/xtrude/static/media/lito1.5ba5a506.jpg",
+    "static/media/lito2.0e5d1fd8.jpg": "/xtrude/static/media/lito2.0e5d1fd8.jpg",
+    "static/media/lito3.b0dc31c6.jpg": "/xtrude/static/media/lito3.b0dc31c6.jpg",
+    "static/media/lito4.2b6d6974.jpg": "/xtrude/static/media/lito4.2b6d6974.jpg",
+    "static/media/lito5.1bf31c67.jpg": "/xtrude/static/media/lito5.1bf31c67.jpg",
+    "static/media/lito6.491b42a4.jpg": "/xtrude/static/media/lito6.491b42a4.jpg",
+    "static/media/lito7.ed89671e.jpg": "/xtrude/static/media/lito7.ed89671e.jpg",
+    "static/media/lito8.073fcdc6.jpeg": "/xtrude/static/media/lito8.073fcdc6.jpeg",
     "static/media/logo2.6c908e92.png": "/xtrude/static/media/logo2.6c908e92.png",
-    "static/media/product2.ed68c1a0.jpg": "/xtrude/static/media/product2.ed68c1a0.jpg",
-    "static/media/product3.97085ad8.jpeg": "/xtrude/static/media/product3.97085ad8.jpeg",
     "static/media/Contact.css": "/xtrude/static/media/product4.851312ff.jpg",
     "static/media/service1.59eb4b38.jpg": "/xtrude/static/media/service1.59eb4b38.jpg",
     "static/media/service2.b4524034.jpg": "/xtrude/static/media/service2.b4524034.jpg",
-    "static/media/service3.555175ec.png": "/xtrude/static/media/service3.555175ec.png",
-    "static/media/tesztvideo_trim.cf8ad0f0.mp4": "/xtrude/static/media/tesztvideo_trim.cf8ad0f0.mp4"
+    "static/media/service3.d85c9286.jpg": "/xtrude/static/media/service3.d85c9286.jpg",
+    "static/media/service4.1f97b85b.jpg": "/xtrude/static/media/service4.1f97b85b.jpg",
+    "static/media/service5.54ce1ee5.png": "/xtrude/static/media/service5.54ce1ee5.png",
+    "static/media/service6.9a6840f2.jpg": "/xtrude/static/media/service6.9a6840f2.jpg",
+    "static/media/tesztvideo_trim.cf8ad0f0.mp4": "/xtrude/static/media/tesztvideo_trim.cf8ad0f0.mp4",
+    "static/media/ujvideo.bcc61c84.mp4": "/xtrude/static/media/ujvideo.bcc61c84.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.801f4028.js",
-    "static/js/2.ed444cfa.chunk.js",
-    "static/css/main.1db98e24.chunk.css",
-    "static/js/main.36d72eb1.chunk.js"
+    "static/js/2.786816b3.chunk.js",
+    "static/css/main.38ef2ba6.chunk.css",
+    "static/js/main.75031280.chunk.js"
   ]
 }
