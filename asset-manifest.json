@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/xtrude/static/css/main.da337c90.chunk.css",
-    "main.js": "/xtrude/static/js/main.bdee043f.chunk.js",
-    "main.js.map": "/xtrude/static/js/main.bdee043f.chunk.js.map",
+    "main.js": "/xtrude/static/js/main.801d62f2.chunk.js",
+    "main.js.map": "/xtrude/static/js/main.801d62f2.chunk.js.map",
     "runtime-main.js": "/xtrude/static/js/runtime-main.801f4028.js",
     "runtime-main.js.map": "/xtrude/static/js/runtime-main.801f4028.js.map",
     "static/js/2.cfcbf58d.chunk.js": "/xtrude/static/js/2.cfcbf58d.chunk.js",
@@ -23,6 +23,7 @@
     "static/media/custom2.16484247.jpg": "/xtrude/static/media/custom2.16484247.jpg",
     "static/media/custom3.4bf7f542.jpg": "/xtrude/static/media/custom3.4bf7f542.jpg",
     "static/media/custom4.c36c220e.jpg": "/xtrude/static/media/custom4.c36c220e.jpg",
+    "static/media/harom.fcef0f05.jpg": "/xtrude/static/media/harom.fcef0f05.jpg",
     "static/media/laser1.fad4cd21.jpg": "/xtrude/static/media/laser1.fad4cd21.jpg",
     "static/media/laser2.dc4b3241.jpg": "/xtrude/static/media/laser2.dc4b3241.jpg",
     "static/media/lito1.f286171e.jpg": "/xtrude/static/media/lito1.f286171e.jpg",
@@ -48,6 +49,6 @@
     "static/js/runtime-main.801f4028.js",
     "static/js/2.cfcbf58d.chunk.js",
     "static/css/main.da337c90.chunk.css",
-    "static/js/main.bdee043f.chunk.js"
+    "static/js/main.801d62f2.chunk.js"
   ]
 }
