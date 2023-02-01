@@ -17,13 +17,13 @@
     padding-top: 3rem;
 }
 
-.products h1:nth-child(1) {
+.products h1:first-of-type {
     padding-top: 6rem;
 }
 
 .products .desc {
     text-align: center;
-    padding: 1rem 0 0.5rem 0;
+    padding: 1rem 1rem 0.5rem;
     font-weight: 600;
     font-size: 1.3rem;
 }
@@ -102,24 +102,26 @@
         width: 100%;
     }
 
-    .products .container .first-content {
-        flex-direction: column;
-        -webkit-flex-direction: column;
+    .products h1:first-of-type {
+        padding-top: 3rem;
     }
 
-    .products .container .second-content {
-        flex-direction: column;
-        -webkit-flex-direction: column;
+    .products h1 {
+        font-size: 2.5rem;
+    }
+
+    .products .container .content {
         width: 100%;
-        max-width: 1200px;
+        gap: 7px;
+        padding: 0.3rem;
     }
 
     .products .card {
-        max-width: 100%;
+        height: 140px;
     }
 
-    .products p {
-        font-size: 1rem;
+    .products .desc {
+        font-size: 1.2rem;
     }
 }
 

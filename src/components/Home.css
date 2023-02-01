@@ -1,8 +1,27 @@
+.container {
+    position: relative;
+}
+
+.mobile {
+    display: none;
+    position: absolute;
+    top: 80;
+    height: 200px;
+    z-index: 0;
+}
+
+.mobile img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 .home {
     color: #fff;
     height: 100vh;
     width: 100%;
     position: relative;
+    z-index: -1;
 }
 
 .home video {
@@ -38,6 +57,15 @@
 }
 
 @media screen and (max-width:900px) {
+    .blank {
+        height: 80px;
+    }
+    .mobile {
+        display: block;
+    }
+    .home {
+        height: 200px;
+    }
     .home .content {
         padding: 1rem 7%;
     }
@@ -47,6 +75,10 @@
 
     .home .content h2 {
         font-size: 1.5rem;
+    }
+
+    .home video {
+        object-fit: cover;
     }
 }
 

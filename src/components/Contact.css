@@ -99,14 +99,22 @@ form input:disabled {
 .contact .info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2rem;
+    margin: 0 1rem 2rem;
 }
 
 @media screen and (max-width:900px) {
 
+    .contact .background {
+        padding-top: 3rem;
+    }
+
     .contact .content p {
         padding: 0.2rem 2rem;
         font-size: 1.1rem;
+    }
+
+    .contact h1 {
+        font-size: 2.5rem;
     }
 
 }

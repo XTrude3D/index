@@ -10,7 +10,7 @@
 .services h1 {
     font-size: 3rem;
     text-align: center;
-    padding-top: 7rem;
+    padding-top: 6rem;
 }
 
 .services h2 {
@@ -93,6 +93,10 @@
 
     .services .card {
         max-width: 100%;
+    }
+
+    .services h1 {
+        padding-top: 3rem;
     }
 }
 
