@@ -1,12 +1,12 @@
 import React from 'react'
-import idevalami from './images/idevalami.png'
+import idevalami from './images/harom.jpg'
 import './About.css'
 
 const About = () => {
     return (
         <div className='about' id='about'>
             <div className='container'>
-                <img src={idevalami} alt='about' />
+                <img src={idevalami} alt='Rólunk' />
                 <div className='col-2'>
                     <h1>Rólunk</h1>
                     <span className='line'></span>

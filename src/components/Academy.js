@@ -1,5 +1,5 @@
 import React from 'react'
-import background from './images/tesztvideo_trim.mp4'
+import background from './images/ujvideo.mp4'
 import './Academy.css'
 
 const Home = () => {

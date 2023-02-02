@@ -3,7 +3,7 @@ import service1 from './images/service1.jpg'
 import service2 from './images/service2.jpg'
 import service3 from './images/service3.jpg'
 import service4 from './images/service4.jpg'
-import service5 from './images/service5.png'
+import service5 from './images/service5.jpg'
 import service6 from './images/service6.jpg'
 import './Services.css'
 

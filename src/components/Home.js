@@ -8,7 +8,7 @@ const Home = () => {
         <div className='container'>
             <div className='blank'></div>
             <div className='mobile'>
-                <img src={mobile} alt="xtrude"></img>
+                <img src={mobile} alt="XTrude"></img>
             </div>
             <div className='home' id='home'>
                 <video src={background} autoPlay muted playsInline/>

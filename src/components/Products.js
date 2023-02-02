@@ -17,10 +17,10 @@ import alk3 from './images/alk3.jpg'
 import alk4 from './images/alk4.jpg'
 import laser1 from './images/laser1.jpg'
 import laser2 from './images/laser2.jpg'
-import cad1 from './images/cad1.png'
+import cad1 from './images/cad1.jpg'
 import cad2 from './images/cad2.jpg'
 import cad3 from './images/cad3.jpg'
-import cad4 from './images/cad4.png'
+import cad4 from './images/cad4.jpg'
 
 import './Products.css'
 
@@ -34,22 +34,22 @@ const Products = () => {
                 <p className='desc'>Egyedi fényképes litofánok, melyekkel az élmény örök marad:</p>
                 <div className='content'>
                     <div className='card'>
-                        <img src={lito1} />
+                        <img src={lito1} alt="Fénykép1"/>
                         {/* <h2>Termék1</h2>
                         <p className='priceTag'>1000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={lito2} />
+                        <img src={lito2} alt="Fénykép2"/>
                         {/* <h2>Termék2</h2>
                         <p className='priceTag'>2000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={lito3} />
+                        <img src={lito3} alt="Fénykép3"/>
                         {/* <h2>Termék3</h2>
                         <p className='priceTag'>3000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={lito4} />
+                        <img src={lito4} alt="Fénykép4"/>
                         {/* <h2>Termék3</h2>
                         <p className='priceTag'>3000 Ft</p> */}
                     </div>
@@ -57,22 +57,22 @@ const Products = () => {
 
                 <div className='content'>
                     <div className='card'>
-                        <img src={lito5} />
+                        <img src={lito5} alt="Fénykép5"/>
                         {/* <h2>Termék1</h2>
                         <p className='priceTag'>1000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={lito6} />
+                        <img src={lito6} alt="Fénykép6"/>
                         {/* <h2>Termék2</h2>
                         <p className='priceTag'>2000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={lito7} />
+                        <img src={lito7} alt="Fénykép7"/>
                         {/* <h2>Termék3</h2>
                         <p className='priceTag'>3000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={lito8} />
+                        <img src={lito8} alt="Fénykép8"/>
                         {/* <h2>Termék3</h2>
                         <p className='priceTag'>3000 Ft</p> */}
                     </div>
@@ -83,22 +83,22 @@ const Products = () => {
                 <p className='desc'>Funkcionális vagy dísztárgyak, ahol csak a képzelet szabja a határokat:</p>
                 <div className='content'>
                     <div className='card'>
-                        <img src={custom1} />
+                        <img src={custom1} alt="Egyedi1"/>
                         {/* <h2>Termék1</h2>
                         <p className='priceTag'>1000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={custom2} />
+                        <img src={custom2} alt="Egyedi2"/>
                         {/* <h2>Termék2</h2>
                         <p className='priceTag'>2000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={custom3} />
+                        <img src={custom3} alt="Egyedi3"/>
                         {/* <h2>Termék3</h2>
                         <p className='priceTag'>3000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={custom4} />
+                        <img src={custom4} alt="Egyedi4"/>
                         {/* <h2>Termék3</h2>
                         <p className='priceTag'>3000 Ft</p> */}
                     </div>
@@ -109,22 +109,22 @@ const Products = () => {
                 <p className='desc'>Törött, illetve nehezen, vagy nem kapható alkatrészek gyártása:</p>
                 <div className='content'>
                     <div className='card'>
-                        <img src={alk1} />
+                        <img src={alk1} alt="Alkatrész1"/>
                         {/* <h2>Termék1</h2>
                         <p className='priceTag'>1000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={alk2} />
+                        <img src={alk2} alt="Alkatrész2"/>
                         {/* <h2>Termék2</h2>
                         <p className='priceTag'>2000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={alk3} />
+                        <img src={alk3} alt="Alkatrész3"/>
                         {/* <h2>Termék3</h2>
                         <p className='priceTag'>3000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={alk4} />
+                        <img src={alk4} alt="Alkatrész4"/>
                         {/* <h2>Termék3</h2>
                         <p className='priceTag'>3000 Ft</p> */}
                     </div>
@@ -135,12 +135,12 @@ const Products = () => {
                 <p className='desc'>Adj személyes jelleget hétköznapi tárgyaidnak lézergravírozással:</p>
                 <div className='content'>
                     <div className='card'>
-                        <img src={laser1} />
+                        <img src={laser1} alt="Lézergravírozás1"/>
                         {/* <h2>Termék1</h2>
                         <p className='priceTag'>1000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={laser2} />
+                        <img src={laser2} alt="Lézergravírozás2"/>
                         {/* <h2>Termék2</h2>
                         <p className='priceTag'>2000 Ft</p> */}
                     </div>
@@ -151,22 +151,22 @@ const Products = () => {
                 <p className='desc'>Rajz digitalizáció, műszaki rajz készítés, parametrikus és nem-parametrikus modellezés, "reverse engineering":</p>
                 <div className='content'>
                     <div className='card'>
-                        <img src={cad1} />
+                        <img src={cad1} alt="CAD tervezés 1"/>
                         {/* <h2>Termék1</h2>
                         <p className='priceTag'>1000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={cad2} />
+                        <img src={cad2} alt="CAD tervezés 2"/>
                         {/* <h2>Termék2</h2>
                         <p className='priceTag'>2000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={cad3} />
+                        <img src={cad3} alt="CAD tervezés 3"/>
                         {/* <h2>Termék1</h2>
                         <p className='priceTag'>1000 Ft</p> */}
                     </div>
                     <div className='card'>
-                        <img src={cad4} />
+                        <img src={cad4} alt="CAD tervezés 4"/>
                         {/* <h2>Termék2</h2>
                         <p className='priceTag'>2000 Ft</p> */}
                     </div>
