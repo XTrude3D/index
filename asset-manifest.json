@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/xtrude/static/css/main.da337c90.chunk.css",
-    "main.js": "/xtrude/static/js/main.801d62f2.chunk.js",
-    "main.js.map": "/xtrude/static/js/main.801d62f2.chunk.js.map",
+    "main.css": "/xtrude/static/css/main.97043ccb.chunk.css",
+    "main.js": "/xtrude/static/js/main.f782a32e.chunk.js",
+    "main.js.map": "/xtrude/static/js/main.f782a32e.chunk.js.map",
     "runtime-main.js": "/xtrude/static/js/runtime-main.801f4028.js",
     "runtime-main.js.map": "/xtrude/static/js/runtime-main.801f4028.js.map",
     "static/js/2.cfcbf58d.chunk.js": "/xtrude/static/js/2.cfcbf58d.chunk.js",
     "static/js/2.cfcbf58d.chunk.js.map": "/xtrude/static/js/2.cfcbf58d.chunk.js.map",
     "index.html": "/xtrude/index.html",
-    "static/css/main.da337c90.chunk.css.map": "/xtrude/static/css/main.da337c90.chunk.css.map",
+    "static/css/main.97043ccb.chunk.css.map": "/xtrude/static/css/main.97043ccb.chunk.css.map",
     "static/js/2.cfcbf58d.chunk.js.LICENSE.txt": "/xtrude/static/js/2.cfcbf58d.chunk.js.LICENSE.txt",
     "static/media/alk1.3aae9d1d.jpg": "/xtrude/static/media/alk1.3aae9d1d.jpg",
     "static/media/alk2.b2fa16cc.jpg": "/xtrude/static/media/alk2.b2fa16cc.jpg",
@@ -18,14 +18,14 @@
     "static/media/cad2.9fb874ea.jpg": "/xtrude/static/media/cad2.9fb874ea.jpg",
     "static/media/cad3.d421513f.jpg": "/xtrude/static/media/cad3.d421513f.jpg",
     "static/media/cad4.03ebd611.png": "/xtrude/static/media/cad4.03ebd611.png",
-    "static/media/Contact.css": "/xtrude/static/media/contact.ac8f6f33.jpg",
+    "static/media/Contact.css": "/xtrude/static/media/contact.119c029b.jpg",
     "static/media/custom1.51ce7134.jpg": "/xtrude/static/media/custom1.51ce7134.jpg",
     "static/media/custom2.16484247.jpg": "/xtrude/static/media/custom2.16484247.jpg",
     "static/media/custom3.4bf7f542.jpg": "/xtrude/static/media/custom3.4bf7f542.jpg",
     "static/media/custom4.c36c220e.jpg": "/xtrude/static/media/custom4.c36c220e.jpg",
     "static/media/harom.fcef0f05.jpg": "/xtrude/static/media/harom.fcef0f05.jpg",
-    "static/media/laser1.fad4cd21.jpg": "/xtrude/static/media/laser1.fad4cd21.jpg",
-    "static/media/laser2.dc4b3241.jpg": "/xtrude/static/media/laser2.dc4b3241.jpg",
+    "static/media/laser1.570f274e.jpg": "/xtrude/static/media/laser1.570f274e.jpg",
+    "static/media/laser2.ee1574d3.jpg": "/xtrude/static/media/laser2.ee1574d3.jpg",
     "static/media/lito1.f286171e.jpg": "/xtrude/static/media/lito1.f286171e.jpg",
     "static/media/lito2.5998dbbe.jpg": "/xtrude/static/media/lito2.5998dbbe.jpg",
     "static/media/lito3.bc2143fc.jpg": "/xtrude/static/media/lito3.bc2143fc.jpg",
@@ -40,7 +40,7 @@
     "static/media/service2.16484247.jpg": "/xtrude/static/media/service2.16484247.jpg",
     "static/media/service3.7cb39bd5.jpg": "/xtrude/static/media/service3.7cb39bd5.jpg",
     "static/media/service4.b2bea1f0.jpg": "/xtrude/static/media/service4.b2bea1f0.jpg",
-    "static/media/service5.54ce1ee5.png": "/xtrude/static/media/service5.54ce1ee5.png",
+    "static/media/service5.a5f8d8aa.png": "/xtrude/static/media/service5.a5f8d8aa.png",
     "static/media/service6.64430003.jpg": "/xtrude/static/media/service6.64430003.jpg",
     "static/media/tesztvideo_trim.cf8ad0f0.mp4": "/xtrude/static/media/tesztvideo_trim.cf8ad0f0.mp4",
     "static/media/ujvideo.bcc61c84.mp4": "/xtrude/static/media/ujvideo.bcc61c84.mp4"
@@ -48,7 +48,7 @@
   "entrypoints": [
     "static/js/runtime-main.801f4028.js",
     "static/js/2.cfcbf58d.chunk.js",
-    "static/css/main.da337c90.chunk.css",
-    "static/js/main.801d62f2.chunk.js"
+    "static/css/main.97043ccb.chunk.css",
+    "static/js/main.f782a32e.chunk.js"
   ]
 }
